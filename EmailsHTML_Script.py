@@ -3,7 +3,7 @@ from email.message import EmailMessage
 from string import Template
 from pathlib import Path  # os.path
 
-# here by using Path of pathlib route to index.html file and by using Template of string convert it into template form
+# here by using Path of pathlib route to index.html file and by using Template of string convert it into template form..
 html = Template(Path('index.html').read_text())
 
 
